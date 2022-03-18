@@ -40,7 +40,7 @@ KTF.set_session(get_session())
 import numpy as np
 from tqdm import tqdm
 
-from keras.layers import Input, CuDNNGRU
+from keras.layers import Input, GRU
 from numpy import linalg as LA
 import scipy
 
